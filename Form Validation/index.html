@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class = "container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class = "form" id ="form">
+            <div class="form-control">
+                <label for="Username">Username</label>
+                <input type="text" id="username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="Email">Email</label>
+                <input type="text" id="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="Password">Password</label>
+                <input type="password" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="Password check">Password Check</label>
+                <input type="password" id="passwordCheck" >
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <button id = "submit">Submit</button>
+        </form>
+
+    </div>
+  <!--  
+    <div id="error"></div>
+    <form id = "form" action = "/" method="get">
+        <div>
+            <label for="name">Name</label>
+            <input id = "name" name="name" type="text" placeholder="Enter Name..." required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id = "password" name="password" type="text" placeholder="Enter Password...">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    --> 
+</body>
+<script defer src="script.js"></script>
+</html>
